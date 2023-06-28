@@ -7,4 +7,4 @@ from loader import dp
 
 @dp.message_handler(CommandStart())
 async def bot_start(message: types.Message):
-    await message.answer(f"Salom, {message.from_user.full_name}, IT Center Bulungur  botga xush kelibsiz!",reply_markup=d_key)
+    await message.answer(f"Assalomu alaykum, {message.from_user.full_name},\n IT Center Bulungur  botga xush kelibsiz!",reply_markup=d_key)
